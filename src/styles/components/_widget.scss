@@ -1,0 +1,11 @@
+.widget{
+    background: lightslategrey;
+}
+
+.widget-header{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: $s-size;
+}
+

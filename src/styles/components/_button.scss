@@ -1,0 +1,30 @@
+.large_button{
+    background-color: slateblue;
+    border: none;
+    border-bottom: 10px solid darken(slateblue, 15%);
+    color: white;
+    width: 100%;
+    padding: $s-size;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.large_button:disabled{
+    opacity: .5;
+}
+
+.button{
+    background-color: slateblue;
+    border: none;
+    border-bottom: 4px solid darken(slateblue, 15%);
+    color: white;
+    font-size: 1rem;
+    padding: $s-size;
+}
+
+.button--link{
+    border: none;
+    background: none;
+    font-size: 1rem;
+    
+}

@@ -1,0 +1,17 @@
+.add-option{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+
+.add_option__option-input{
+    flex-grow: 1;
+    height: 90%;
+    margin-right: $s-size;  
+    width: 60%;
+    border: 3px solid darkgreen;
+    color: rgb(2, 8, 15);
+  
+}
+
